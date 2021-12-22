@@ -2,7 +2,7 @@
 {
     public class FiltroPeliculasDTO
     {
-        public int Pagina { get; set; }
+        public int Pagina { get; set; } = 1;
         public int CantidadRegistrosPorPagina { get; set; } = 10;
         public PaginacionDTO Paginacion
         {
